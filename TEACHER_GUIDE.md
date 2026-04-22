@@ -21,7 +21,7 @@ git init
 git add .
 git commit -m "初始化数字调制解调实验平台"
 git branch -M main
-git remote add origin https://github.com/你的用户名/wireless-modulation-experiment.git
+git remote add origin https://github.com/jwentong/wireless-modulation-experiment.git
 git push -u origin main
 ```
 
@@ -39,7 +39,7 @@ git push -u origin main
 **方法1**：使用私有子模块
 ```bash
 # 将grading移到私有仓库
-git submodule add https://github.com/你的用户名/wireless-modulation-grading.git grading
+git submodule add https://github.com/jwentong/wireless-modulation-grading.git grading
 ```
 
 **方法2**：在学生 fork 后删除 grading/
@@ -49,7 +49,7 @@ git submodule add https://github.com/你的用户名/wireless-modulation-grading
 ```yaml
 - name: 拉取评分脚本
   run: |
-    git clone https://github.com/教师/wireless-modulation-grading.git grading
+    git clone https://github.com/jwentong/wireless-modulation-grading.git grading
 ```
 
 ---
@@ -72,7 +72,7 @@ git submodule add https://github.com/你的用户名/wireless-modulation-grading
 3. 预习实验指导：[链接]
 
 实验模板仓库：
-https://github.com/教师/wireless-modulation-experiment
+https://github.com/jwentong/wireless-modulation-experiment
 
 提交截止时间：2026年5月1日 23:59
 
